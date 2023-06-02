@@ -1,3 +1,4 @@
 runApp <- function(...) {
-  shiny::runApp(system.file("shiny-apps", package = "interface"), ...)
+  shiny::runApp(list(ui = ui, server = server))
 }
+
