@@ -1,2 +1,4 @@
-export(runApp)
 
+export(runApp)
+export(instalar)
+importFrom(utils,install.packages)
