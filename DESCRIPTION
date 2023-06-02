@@ -20,4 +20,6 @@ Imports:
     plotly (>= 4.10.0), 
     agricolae (>= 1.3-5),
     agricolaeplotr (>= 0.2.2),
-    devtools (>= 2.4.4)
+    devtools (>= 2.4.4),
+    shinyWidgets,
+    magrittr
