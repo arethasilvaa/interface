@@ -1,4 +1,5 @@
 # Define server logic ----
+output$plot <- renderPlot({
 server <- function(input, output) {
 
   dados <- NULL
@@ -3995,3 +3996,7 @@ server <- function(input, output) {
   )
 
 }
+
+})
+
+return(output$plot)
